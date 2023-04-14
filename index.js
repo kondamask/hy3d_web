@@ -34,6 +34,12 @@ async function init() {
 	});
 
 	const canvas = document.getElementById("canvas");
+
+	canvas.width  = window.innerWidth;
+	canvas.height = window.innerHeight;
+	canvas.x = 0;
+	canvas.padding = 0;
+
 	const context = canvas.getContext("webgpu");
 
 	context.configure({

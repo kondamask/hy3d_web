@@ -8,8 +8,8 @@
 			"type": "chrome",
 			"request": "launch",
 			"name": "run",
-			"file": "w:\\test_webgpu\\index.html",
-			"runtimeExecutable": "canary"
+			"file": "${workspaceFolder}/index.html",
+			"runtimeExecutable": "beta"
 		}
 	]
 }
